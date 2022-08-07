@@ -19,3 +19,5 @@ Hands-on practice on solidity.
 [Solidity By Example](https://solidity-by-example.org/)
 
 [Practice Project](https://learn.figment.io/tutorial)
+
+[Practice #1](https://www.ethhole.com/challenge)
