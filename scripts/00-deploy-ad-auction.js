@@ -7,12 +7,12 @@
 const {ethers} = require("hardhat")
 
 async function main() {
-  const PiggyBank = await ethers.getContractFactory("PiggyBank");
-  const bank = await PiggyBank.deploy();
+  const adAuctionFactory = await ethers.getContractFactory("AdAuction");
+  const adAuction = await adAuctionFactory.deploy();
 
-  await bank.deployed();
+  await adAuction.deployed();
 
-  console.log("PiggyBank deployed to:", bank.address);
+  console.log("Advertise auction deployed to:", adAuction.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
